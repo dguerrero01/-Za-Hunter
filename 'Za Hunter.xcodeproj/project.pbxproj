@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBD3AA227CD3070003EBE4A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD3AA127CD3070003EBE4A /* LocationManager.swift */; };
 		3FF8CA9F27C93C2300B9644D /* _Za_HunterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8CA9E27C93C2300B9644D /* _Za_HunterApp.swift */; };
 		3FF8CAA127C93C2300B9644D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8CAA027C93C2300B9644D /* ContentView.swift */; };
 		3FF8CAA327C93C2600B9644D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8CAA227C93C2600B9644D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FBD3AA127CD3070003EBE4A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		3FF8CA9B27C93C2300B9644D /* 'Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8CA9E27C93C2300B9644D /* _Za_HunterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterApp.swift; sourceTree = "<group>"; };
 		3FF8CAA027C93C2300B9644D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				3FF8CA9E27C93C2300B9644D /* _Za_HunterApp.swift */,
 				3FF8CAA027C93C2300B9644D /* ContentView.swift */,
+				3FBD3AA127CD3070003EBE4A /* LocationManager.swift */,
 				3FF8CAA227C93C2600B9644D /* Assets.xcassets */,
 				3FF8CAA427C93C2600B9644D /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				3FF8CAA127C93C2300B9644D /* ContentView.swift in Sources */,
 				3FF8CA9F27C93C2300B9644D /* _Za_HunterApp.swift in Sources */,
+				3FBD3AA227CD3070003EBE4A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				DEVELOPMENT_TEAM = VC9G4ZKWP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OK to display your current location on the map?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,7 @@
 				DEVELOPMENT_TEAM = VC9G4ZKWP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OK to display your current location on the map?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
